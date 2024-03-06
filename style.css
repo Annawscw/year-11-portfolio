@@ -1,6 +1,5 @@
-body { 
+body.html { 
     background-color: rgb(236, 95, 95) 
-    background-image url("cat.gif");
 }
 .project {
     background-color: blueviolet;
