@@ -1,24 +1,43 @@
+:root {
+    /* ----- font sizes ----- */
+    --font-size-small: 16px;
+    --font-size-normal: 22px;
+    --font-size-medium: 28px;
+    --font-size-medium-1: 36px;
+    --font-size-large: 55px;
+    --font-size-huge: 75px;
+}
+
 body {
     background-color: rgb(0, 0, 0);
-    background-repeat: no-repeat;
-    background-size: 90% ;
-    background-position: 50%;
-    background-position: top center ;
+}
+html {
+    
     color: white;
-    background-image: url("cat2.jpg");
+}
 
+
+.header_text_large {
+    font-size: var(--font-size-large);
+}
+.header_text_med {
+    font-size: var(--font-size-medium);
+}
+.header_text_huge {
+    font-size: var(--font-size-huge);
 }
 .project1 {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
-.bg_img {
+.bg-img {
+    background-image: url("cat2.jpg");
     filter: blur(18px);
     -webkit-filter: blur(18px);
-    max-width: 100%;
-    object-fit: contain;
-    border: 2px solid var(--text-colour);
-    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 90% ;
+    background-position: 50%;
+    background-position: top center ;
 }
 /* - Navigation bar - */
 
