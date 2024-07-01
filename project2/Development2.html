@@ -6,84 +6,63 @@
     <title>Development</title>
     <link rel="stylesheet" href="style.css">
 </head> 
-<h1> Project2 Development</h1>
+<h1> Project 2 Development</h1>
 <hr>
 <body>
      <!-- ***** Development task1 ***** -->
- <h2>testing 1 - scenarios5</h2>
- <h3>Development</h3>
+ <h1>Development</h1>
  <div class="split-box">
     <div class="left-text">
-<p></p>
-<img class="output" src="planing .png" alt="Project 2" />
+<p>I planned the code by creating a flowchart in LucidChart. I used the 'literate modelling' approach by discussing with my team the game flow, using the flow to decide what functions to code, and then using colours to assign work my the other team mates so that everyone could understand what they needed to do and how it was part of the overall game.</p>
+<p><img src="flowchart.png" width="400" alt="game flowchart using literate modeling"/></p>
+Literate modeling is a way to draw up in a model what you're planning to build, and making it really easy to understand by using colours, labels, names and so on so everyone can see at a glance what they should be doing.
+
+<p>Each team member then created the scenarios they had been assigned in the model.</p>
+  
+<p>I wrote my part of the code to fight the monster and either be killed or leave the forest down another path. My code used two variables to mock the code from my team members because it wasn't ready in time. I used a while true loop to handle checking whether there was a sword to fight with, and options for the user to choose to fight or not. 
+  </p>
+<img class="output" src="main_code.png" width="800" alt="Main code for text adventure game" />
 </div>
 <hr>
  <!-- ***** Testing ***** -->
  <table>
  
   <thead>
+    <h1>Testing - test 1</h1>
     <tr>
       <th>Test/Input</th>
       <th>Expectation</th>
       <th>Output</th>
     </tr>
+    <tr>
+      <td>Yes</td>
+      <td>User fights the monster</td>
+      <td><img src="./development_log_image_1.png" width="800"/></td>
+    </tr>
+    <tr>
+      <td>Any other input</td>
+      <td>User avoids the monster and goes further down the path</td>
+      <td><img src="./development_log_image_2.png" width="800"/></td>
+    </tr>
   </thead>
-
-  <!-- Test 1 -->
-  <tr>
-    <td>""</td> <!-- Input -->
-    <td>What happens?</td><!-- Expectation -->
-    <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
-  </tr>
-
-  <!-- Test 2 -->
-  <tr>
-      <td>""</td> <!-- Input -->
-      <td>What happens?</td><!-- Expectation -->
-      <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
-    </tr>
-
-  <!-- Test 3 -->
-  <tr>
-      <td>""</td> <!-- Input -->
-      <td>What happens?</td><!-- Expectation -->
-      <td><img class="output" src="placeholder.png"/></td><!-- Output/Screenshot -->
-    </tr>
-
 </table>
-
-      
-       <!-- ***** feedback ***** -->
-       <h1>Feedback 1</h1>
-        <div class="question">
-        <p class="feedback__question">
-          Q.   
-        </p>
-        <p class="feedback__answer">
-          ""
-        </p>
-        Q. 
-        <p class="feedback__answer">
-          ""
+       <!-- ***** errors ***** -->
+       <h1>Errors</h1>
+        <div class="errors">
+        <p>The game wouldn't allow to defeat the monster as there was no code to test if the user had weapons, and it didn't match the flow in Lucidchart.
         </p>
       </div>
       
-      <!-- ***** inprovments 1 ***** -->
-      <h1>Improvements 1</h1>
-      <!-- ***** 1 inprovments  ***** -->
+      <!-- ***** inprovments ***** -->
+      <h1>Improvements</h1>
       <p>
-        ""
+        I introduced the 'Sword' variable which mocked Tixsha's code, then added check for if the user had the sword and so they could kill the monster.
       </p>
     <div class="right-text">
     </div>
+ <!-- ***** Testing 2 ***** -->
 
-</body>
-</html>
-<hr>
-
- <!-- ***** Testing ***** -->
-
- <h1>Testing 2 - scenarios6</h1>
+ <h1>Testing 2</h1>
  <table>
      <thead>                
        <tr>
@@ -91,75 +70,30 @@
          <th align="left">Expectation</th>
          <th align="left">Output</th>
        </tr>
+       <tr>
+        <td>Knife</td>
+        <td>Check if user does not have a sword so can they defeat the monster and they will die.</td>
+        <td><img src="./development_log_image_3.png" width="800"/></td>
+       </tr>
+       <tr>
+        <td>Sword</td>
+        <td>Check if user has a sword and if they do, they defeat the monster.</td>
+        <td><img src="./development_log_image_4.png" width="800"/></td>
+       </tr>
      </thead>
-     <tr>
-         <td>1..&nbsp&nbsp</td>
-         <td>.&nbsp&nbsp</td>
-     </tr>
        </table>
      
         <!-- ***** feedback ***** -->
-        <h1>Feedback 2</h1>
-         <div class="question">
+        <h1>Feedback</h1>
+         <div class="feedback">
          <p class="feedback__question">
-           Q.  
+           Q. What did you think of the game? 
          </p>
          <p class="feedback__answer">
-           ""
-         </p>
-         Q. 
-         <p class="feedback__answer">
-           ""
+           "The game flow worked well and I could see results from my selections, and I could complete the game. Good job."
          </p>
        </div>
        
-       <!-- ***** inprovments 2 ***** -->
-       <h1>Improvements 2</h1>
-       <p>
-         ""
-       </p>
 
-       </div>
- 
-
-<hr>
-<!-------- Testing ---------->
- <h1>Testing 3 - scenarios7</h1>
- <table>
-     <thead>                
-       <tr>
-         <th align="left">Test/Input</th>
-         <th align="left">Expectation</th>
-         <th align="left">Output</th>
-       </tr>
-     </thead>
-     <tr>
-         <td>1. &nbsp&nbsp</td>
-         <td>.&nbsp&nbsp</td>
-         <td><img class="output" src="./low poly leg 1.png" alt="Project 1" /></td>
-     </tr>
-       </table>
-       
-        <!-- ***** feedback ***** -->
-        <h1>Feedback 3</h1>
-         <div class="question">
-         <p class="feedback__question">
-           Q.  
-         </p>
-         <p class="feedback__answer">
-           ""
-         </p>
-         Q. 
-         <p class="feedback__answer">
-           ""
-         </p>
-       </div>
-       
-       <!-- ***** inprovments 3 ***** -->
-       <h1>Improvements 3</h1>
-       <p>
-         ""
-       </p>
- 
  </body>
  </html>
